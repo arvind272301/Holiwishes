@@ -11,7 +11,9 @@ body {
 
 
 .multiple-text {
-    font-size: 10rem;
+    font-size: 9rem;
+    /* font-family: "Gill Sans Extrabold", sans-serif; */
+    font-family: serif;
 }
 
 
@@ -27,7 +29,7 @@ body {
     color: seashell;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25);
     letter-spacing: 24px;
-    font-size: 12em;
+    font-size: 9rem;
     animation: textShadowAnim 2s ease-in infinite, moveTextAnim 2s ease-in infinite;
 }
 
@@ -39,7 +41,7 @@ body {
     -webkit-text-fill-color: transparent;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
     animation: moveTextAnim 2s 1s ease-in infinite;
-    font-size: 3em;
+    font-size: 3rem;
     position: absolute;
     bottom: 5%;
 }
@@ -85,3 +87,35 @@ svg {
         transform: translate(-25px, -25px);
     }
 }
+
+/* REsponsive website  */
+
+@media(max-width:880px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media(max-width:720px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:600px){
+    html{
+        font-size: 68%;
+    }
+}
+
+@media(max-width:480px){
+    html{
+        font-size: 60%;
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
