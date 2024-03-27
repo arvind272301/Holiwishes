@@ -3,9 +3,9 @@
 
 const typed = new Typed('.multiple-text', {
     // strings: ['Frontend Developer', 'MERN Full Stack Developer','Java Full Stack Developer'],
-    strings: ['A.......P'],
-    typeSpeed: 200,
-    backSpeed: 200,
+    strings: ['Happy Holi'],
+    typeSpeed: 250,
+    backSpeed: 250,
     backDelay:1000,
     loop: true
 });
